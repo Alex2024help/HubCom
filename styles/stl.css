@@ -1,0 +1,288 @@
+ h1 {
+     color: rgb(237, 64, 64);
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ p {
+     color: rgb(227, 81, 19);
+ }
+
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+
+ button {
+     cursor: pointer;
+ }
+
+
+ .menu-contact {
+     font-size: 20px;
+     color: rgb(188, 29, 42);
+ }
+
+
+
+ .butten {
+     cursor: pointer;
+     font-size: 56px;
+     color: brown;
+ }
+
+ ul,
+ ol {
+     list-style-type: none;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: 0;
+     /* display: flex; */
+ }
+
+ * .butt {
+     font-size: 20px;
+     color: rgb(3, 3, 3);
+ }
+
+ .menu-link:hover {
+     color: brown;
+     background-color: aqua;
+ }
+
+ * .menu-link:focus {
+     color: brown;
+     background-color: aqua;
+ }
+
+ * .menu-link:active {
+     color: brown;
+     background-color: black;
+ }
+
+ .page-h1 {
+     margin-bottom: 20px;
+     font-family: "Ubuntu";
+     padding-bottom: 20px;
+     padding-top: 16px;
+     border: 10px solid gold
+ }
+
+ .page-p {
+     color: #1d0a0a;
+     /* width: 400px;
+     border: 11px solid rgb(11, 113, 18);
+     padding: 10px; */
+ }
+
+ image {
+     display: block;
+ }
+
+ .container {
+     max-width: 1168px;
+     padding-left: 16px;
+     padding-right: 16px;
+     margin-left: auto;
+     margin-right: auto;
+     /* background-color: aquamarine; */
+ }
+
+ /*--------------- Header stiles----------*/
+
+ .page-nav {
+     display: flex;
+     justify-content: flex-start;
+     margin-left: 45px;
+     align-items: center;
+ }
+
+ .menu-contact {
+     display: flex;
+     column-gap: 24px;
+ }
+
+ .menu-item {
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ /* ===========Hero Section============ */
+
+ .hero {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .menu-page {
+     display: flex;
+     column-gap: 20px;
+ }
+
+ .menu-application {
+     display: flex;
+     column-gap: 20px;
+ }
+
+ .menu-link {
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .application {
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .button-go {
+     display: block;
+ }
+
+ /* ========Section Connect======= */
+
+
+ .ourTeam-list-item {
+     border: 5px solid chocolate;
+     border-radius: 40px;
+ }
+
+ .connection {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 20px;
+ }
+
+ .connection-to {
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     border: 5px solid rgb(241, 14, 14);
+     width: 400px;
+     font-size: 30px;
+     margin-bottom: 80px;
+     border-radius: 40px;
+
+ }
+
+ .connection-p {
+     display: block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     max-width: 500px;
+     padding-left: 20px;
+     padding-left: 20px;
+ }
+
+ /* =======Section Commutator======== */
+ .commutator {
+     border: 5px solid gray;
+     margin-bottom: 30px;
+     margin-top: 40px;
+
+ }
+
+ .commutator-EK {
+     padding-left: 400px;
+     padding-top: 20px;
+     padding-bottom: 40px;
+     font-size: 30px;
+
+ }
+
+
+ .com-blok {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 40px;
+ }
+
+ .blok-izm {
+     border: 1px solid black;
+     font-size: 70px;
+     color: #f70808;
+ }
+
+ /* =======Our benefits========== */
+ .benefits {
+     margin-top: 80px;
+     margin-bottom: 60px;
+ }
+
+ .benefits-list {
+
+     padding-left: 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: stretch;
+     flex-wrap: wrap;
+     /* gap: 20px;
+     row-gap: 40px;
+     column-gap: 20px;
+     gap: 60px 10px; */
+ }
+
+ .benefits-list-item {
+     flex-basis: 300px;
+     width: 400px;
+     padding: 20px;
+     border: 2px solid rgb(71, 232, 56);
+     border-radius: 20px;
+ }
+
+
+
+ .title {
+     font-size: 24;
+     font-weight: 6000;
+     line-height: 1.2;
+     letter-spacing: -0.72 px;
+     text-align: center;
+     text-transform: uppercase;
+     margin-bottom: 40px;
+ }
+
+ .benefits-list-title {
+     font-size: 24;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+
+ /* .benefits-list-item-first {
+     order: 5;
+ }
+
+ .benefits-list-item-second {
+     order: 7;
+ }
+
+ .benefits-list-item-third {
+     order: -1;
+ } */
